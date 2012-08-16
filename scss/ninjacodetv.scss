@@ -1,0 +1,65 @@
+/* hola ninjacode.tv
+*/
+@import "crose_browser";
+// Variable en sass
+$color_font:#4f4f4f;
+$paddin_value: 2px;
+$color_value: saturate(lighten(#333, 40%), 10%);
+body{
+	background-color:$color_value;
+	color: #f9f9f9;
+	font-family: Arial;
+	line-height: 1.5;
+}
+header{
+	@include border_rounder(200px);
+	background-color:#DBDBDB;
+	h1{
+		color: #333;
+		padding: 2px $paddin_value * 2;
+		em{
+			color:#7a0909;
+		}
+	}
+}
+nav{
+	a{
+		color: #E5E5E5;
+		text-decoration: none;
+	}
+	a:visited{
+		color: #ccc;
+	}
+	a:active{
+		color:#EAEAEA;
+	}
+	a:hover{
+		color:#fff;
+	}
+}
+section{
+
+	article{
+		@include border_rounder(520px);
+		color: $color_font;
+		background-color: #7f7f7f;
+		h1{
+			color: #e0a934;
+			padding: $paddin_value $paddin_value /2;
+			margin: $paddin_value $paddin_value - 2;
+		}
+		p{
+			padding: $paddin_value * 4 $paddin_value + 4;
+		}
+	}
+}
+footer{
+	@include border_rounder(500px);
+	background-color: #DBDBDB;
+	text-align: center;
+	span{
+		color: #333;
+		margin: 10px 20px;
+		padding: 10px $paddin_value;
+	}
+}

@@ -1,0 +1,15 @@
+// le indicamos el nombre del archivo donde se encuentra
+// nuestra declaración del mixin
+@import "bordes";
+header{
+	// llamo el mixin especifico con @include
+	@include border_rounder(333px, 4px);
+}
+#cajaTexto{
+	// De nuevo lo utilizo con diferentes valores
+	@include border_rounder(400px, 5px);
+}
+.banner{
+	// De nuevo lo utilizo con diferentes valores
+	@include border_rounder(660px, 7px);
+}

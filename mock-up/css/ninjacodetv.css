@@ -1,90 +1,64 @@
 /* hola ninjacode.tv
 */
-/* line 8, ../scss/ninjacodetv.scss */
 body {
   background-color: #a38f8f;
   color: #f9f9f9;
   font-family: Arial;
-  line-height: 1.5;
-}
+  line-height: 1.5; }
 
-/* line 14, ../scss/ninjacodetv.scss */
 header {
-  -moz-border-radius: 8px 8px;
-  -webkit-border-radius: 8px 8px;
-  -khtml-border-radius: 8px 8px;
-  -o-border-radius: 8px 8px;
-  border-radius: 8px 8px;
-  border: 8px 8px;
+  -moz-border-radius: 4px 4px;
+  -webkit-border-radius: 4px 4px;
+  -khtml-border-radius: 4px 4px;
+  -o-border-radius: 4px 4px;
+  border-radius: 4px 4px;
+  border: 4px 4px;
   width: 200px;
-  background-color: #DBDBDB;
-}
-/* line 17, ../scss/ninjacodetv.scss */
-header h1 {
-  color: #333;
-  padding: 2px 4px;
-}
-/* line 20, ../scss/ninjacodetv.scss */
-header h1 em {
-  color: #7a0909;
-}
+  background-color: #DBDBDB; }
+  header h1 {
+    color: #333;
+    padding: 2px 4px; }
+    header h1 em {
+      color: #7a0909; }
 
-/* line 26, ../scss/ninjacodetv.scss */
 nav a {
   color: #E5E5E5;
-  text-decoration: none;
-}
-/* line 30, ../scss/ninjacodetv.scss */
+  text-decoration: none; }
 nav a:visited {
-  color: #ccc;
-}
-/* line 33, ../scss/ninjacodetv.scss */
+  color: #ccc; }
 nav a:active {
-  color: #EAEAEA;
-}
-/* line 36, ../scss/ninjacodetv.scss */
+  color: #EAEAEA; }
 nav a:hover {
-  color: #fff;
-}
+  color: #fff; }
 
-/* line 42, ../scss/ninjacodetv.scss */
 section article {
-  -moz-border-radius: 8px 8px;
-  -webkit-border-radius: 8px 8px;
-  -khtml-border-radius: 8px 8px;
-  -o-border-radius: 8px 8px;
-  border-radius: 8px 8px;
-  border: 8px 8px;
+  -moz-border-radius: 4px 4px;
+  -webkit-border-radius: 4px 4px;
+  -khtml-border-radius: 4px 4px;
+  -o-border-radius: 4px 4px;
+  border-radius: 4px 4px;
+  border: 4px 4px;
   width: 520px;
   color: #4f4f4f;
-  background-color: #7f7f7f;
-}
-/* line 46, ../scss/ninjacodetv.scss */
-section article h1 {
-  color: #e0a934;
-  padding: 2px 1px;
-  margin: 2px 0px;
-}
-/* line 51, ../scss/ninjacodetv.scss */
-section article p {
-  padding: 8px 6px;
-}
+  background-color: #7f7f7f; }
+  section article h1 {
+    color: #e0a934;
+    padding: 2px 1px;
+    margin: 2px 0px; }
+  section article p {
+    padding: 8px 6px; }
 
-/* line 56, ../scss/ninjacodetv.scss */
 footer {
-  -moz-border-radius: 8px 8px;
-  -webkit-border-radius: 8px 8px;
-  -khtml-border-radius: 8px 8px;
-  -o-border-radius: 8px 8px;
-  border-radius: 8px 8px;
-  border: 8px 8px;
+  -moz-border-radius: 4px 4px;
+  -webkit-border-radius: 4px 4px;
+  -khtml-border-radius: 4px 4px;
+  -o-border-radius: 4px 4px;
+  border-radius: 4px 4px;
+  border: 4px 4px;
   width: 500px;
   background-color: #DBDBDB;
-  text-align: center;
-}
-/* line 60, ../scss/ninjacodetv.scss */
-footer span {
-  color: #333;
-  margin: 10px 20px;
-  padding: 10px 2px;
-}
+  text-align: center; }
+  footer span {
+    color: #333;
+    margin: 10px 20px;
+    padding: 10px 2px; }

@@ -1,0 +1,26 @@
+header {
+  -moz-border-radius: 4px 4px;
+  -webkit-border-radius: 4px 4px;
+  -khtml-border-radius: 4px 4px;
+  -o-border-radius: 4px 4px;
+  border-radius: 4px 4px;
+  border: 4px 4px;
+  width: 333px; }
+
+#cajaTexto {
+  -moz-border-radius: 5px 5px;
+  -webkit-border-radius: 5px 5px;
+  -khtml-border-radius: 5px 5px;
+  -o-border-radius: 5px 5px;
+  border-radius: 5px 5px;
+  border: 5px 5px;
+  width: 400px; }
+
+.banner {
+  -moz-border-radius: 7px 7px;
+  -webkit-border-radius: 7px 7px;
+  -khtml-border-radius: 7px 7px;
+  -o-border-radius: 7px 7px;
+  border-radius: 7px 7px;
+  border: 7px 7px;
+  width: 660px; }

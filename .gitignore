@@ -1,5 +1,7 @@
 *.py[co]
-
+.sass-cache
+sass-cache
+*.scssc
 # Packages
 *.egg
 *.egg-info

@@ -1,0 +1,27 @@
+// En CSS normal
+// body  {
+//      width: 965px;
+//      background: white;
+//      font-color: #222222;
+//      margin: 5px 5px 10px 20px;
+// }
+// body h1 {
+//      font-color: #567654;
+// }
+
+// ----------------------------------------------
+// Declaración de variables para Sass
+$primary_color: #222;
+$secondary_color: #567654;
+$page_width: 965px;
+
+body{
+    width: $page_width;
+    background: white;
+    font-color: $primary_color;
+    margin: 5px 5px 10px 20px;
+    // Recuerde el alcance de un Selector en Sass
+    h1{
+      font-color: $secondary_color;
+   }
+}

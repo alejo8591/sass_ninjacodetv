@@ -1,0 +1,28 @@
+// CSS normal
+//body {
+//   width: 482.5px;
+//   background: white;
+//  font-color: #222222;
+//   margin: 2.5px 7px 8px 6px;
+//}
+//body h1 {
+//   font-color: #567654;
+//}
+// Declaración de variables y juego con operaciones en Sass
+$primary_color: #222;
+$secondary_color: #567654;
+$page_width: 965px;
+$page_pargin_a: 5px;
+$page_pargin_b: 10px;
+body{
+	// operacion de division
+    width: $page_width / 2;
+    background: white;
+    font-color: $primary_color;
+    // operaciones de: division, suma, resta y multiplicación
+    margin: $page_pargin_a / 2 $page_pargin_a + 2 $page_pargin_b - 2 $page_pargin_b * 4;
+    // Recuerde el alcance de un Selector en Sass
+    h1{
+      font-color: $secondary_color;
+   }
+}

@@ -1,0 +1,31 @@
+/* Comentario tipico en CSS
+  .recuadro{
+        width: 200px;
+   }
+   .recuadro .mensaje{
+             border: 1px solid red;
+   }
+   .recuadro .mensaje .titulo{
+             color: red;
+   }
+   .recuadro .usuario{
+            border: 2px solid black;
+   }
+   .recuadro .usuario .titulo{
+            color: black;
+  }
+*/
+// Comentario que solo se refleja en Sass y los .scss
+// En el momento del archivo final en .css no se tienen en cuenta
+// este tipo de comentarios
+.recuadro{
+      width: 200px;
+      .mensaje {
+            border: 1px solid red;
+            .titulo { color: red;}
+      }
+     .usuario{
+            border: 2px solid black;
+            .titulo{ color: black;}
+    }
+}

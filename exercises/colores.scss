@@ -1,0 +1,51 @@
+//#ajaxMan {
+//  color: #b5cee6; }
+//#ajaxManBox {
+//  font-color: #b8b8b8; }
+//#pageMan {
+//  color: #2466a8; }
+//#ajaxBoy {
+//  color: #454545; }
+//  #ajaxBoy > .ajaxChild {
+//    color: #454545; }
+//#ajaxGirl {
+//  color: #454545; }
+//#ajaxPet {
+//  color: #454545; }
+//#PageGirl {
+//  color: #5d2a2a; }
+// ----------------------------------------------------------------
+// Lighten/Darken
+#ajaxMan{
+	color: lighten(#699CCC, 20%);
+}
+// Advanced Lighten/Darken
+$color: lighten(#333, 52%); 
+#ajaxManBox{
+	font-color: $color;
+} 
+// Saturate/Desaturate
+$colorMan: #336699;
+#pageMan{
+	color: saturate($colorMan, 15%);
+}
+// change Hue
+$colorGirl: #454545;
+#ajaxBoy{
+	color: adjust-hue($colorGirl, 180);
+	> .ajaxChild{
+		color: adjust-hue(desaturate($colorGirl, 82%), 75);
+	} 
+}
+// Desaturate 100% with grayscale
+#ajaxGirl{
+	color: grayscale($colorGirl);
+}
+// Or
+#ajaxPet{
+	color: desaturate($colorGirl, 100%);
+}
+// Mixcolor => Sancocholoco
+#PageGirl{
+	color: mix(#222, #993233);
+}

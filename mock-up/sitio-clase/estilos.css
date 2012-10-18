@@ -1,0 +1,321 @@
+/* line 17, ../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/estilos.scss */
+header, section, aside, hgroup, footer, nav {
+  display: block;
+}
+
+/* line 6, ../sass/estilos.scss */
+#contenedor {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 980px;
+}
+
+/* line 11, ../sass/estilos.scss */
+body {
+  background: #CCC;
+  color: #FFF;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+/* line 18, ../sass/estilos.scss */
+a {
+  color: #CCC;
+  text-decoration: none;
+}
+
+/* line 19, ../sass/estilos.scss */
+a:hover {
+  color: #FFF;
+}
+
+/* line 21, ../sass/estilos.scss */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 23, ../sass/estilos.scss */
+header {
+  height: auto;
+}
+
+/* line 27, ../sass/estilos.scss */
+#social {
+  background: #333;
+  height: 50px;
+  overflow: hidden;
+}
+/* line 31, ../sass/estilos.scss */
+#social p {
+  margin: 10px 10px;
+}
+
+/* line 35, ../sass/estilos.scss */
+#logo {
+  background: #000;
+  height: 200px;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* line 42, ../sass/estilos.scss */
+nav {
+  background-image: -webkit-linear-gradient(bottom, #660000 0%, #ff0011 81%);
+  height: 50px;
+  overflow: hidden;
+}
+/* line 46, ../sass/estilos.scss */
+nav ul {
+  text-align: center;
+}
+/* line 48, ../sass/estilos.scss */
+nav ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 51, ../sass/estilos.scss */
+nav ul li a {
+  display: block;
+  color: #FFF;
+  font-size: 1.2em;
+  margin: 0 10px;
+  width: 160px;
+}
+/* line 58, ../sass/estilos.scss */
+nav ul li a:hover {
+  background: red;
+}
+
+/* line 64, ../sass/estilos.scss */
+#slider {
+  height: 350px;
+}
+/* line 66, ../sass/estilos.scss */
+#slider ul {
+  height: 340px;
+  margin: 10 auto;
+}
+/* line 69, ../sass/estilos.scss */
+#slider ul li {
+  margin: 0 auto;
+  width: 960px;
+}
+/* line 72, ../sass/estilos.scss */
+#slider ul li h3 {
+  font-size: 1.5em;
+  margin: 5px 0 10px 0;
+}
+/* line 76, ../sass/estilos.scss */
+#slider ul li a {
+  background: #8A2908;
+  cursor: #FFF;
+  display: block;
+  padding: 5px;
+  width: 80px;
+}
+/* line 83, ../sass/estilos.scss */
+#slider ul li img {
+  display: inline-block;
+  margin: 0;
+}
+/* line 87, ../sass/estilos.scss */
+#slider ul li .caption {
+  background: #999;
+  display: inline-block;
+  height: 310px;
+  margin-left: -5px;
+  padding: 10px;
+  overflow: hidden;
+  vertical-align: top;
+  width: 280px;
+}
+
+/* line 99, ../sass/estilos.scss */
+#contenido {
+  background: #000;
+  overflow: hidden;
+  padding: 10px;
+}
+/* line 103, ../sass/estilos.scss */
+#contenido #cont {
+  display: inline-block;
+  overflow: hidden;
+  width: 610px;
+}
+/* line 107, ../sass/estilos.scss */
+#contenido #cont #bienvenida {
+  background-image: -webkit-linear-gradient(bottom, red 0%, #ff545f 81%);
+  border: 2px solid #FFF;
+  border-radius: 5px;
+  color: #FFF;
+  display: inline-block;
+  padding: 15px;
+  width: 570px;
+}
+/* line 116, ../sass/estilos.scss */
+#contenido #cont #posts {
+  display: inline-block;
+  margin: 10px auto;
+}
+/* line 120, ../sass/estilos.scss */
+#contenido #cont article {
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 200px;
+}
+/* line 127, ../sass/estilos.scss */
+#contenido #cont img {
+  border: 3px solid orange;
+  border-radius: 5px;
+}
+/* line 131, ../sass/estilos.scss */
+#contenido #cont article h2, #contenido #cont article p, #contenido #cont article small {
+  display: block;
+  margin: 0 auto 5px auto;
+  text-align: left;
+}
+/* line 136, ../sass/estilos.scss */
+#contenido #cont article h2 {
+  font-size: 1.1em;
+}
+/* line 139, ../sass/estilos.scss */
+#contenido #cont article small {
+  color: red;
+}
+/* line 143, ../sass/estilos.scss */
+#contenido aside {
+  background: #0778d8;
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 10px;
+  overflow: hidden;
+  vertical-align: top;
+  width: 310px;
+}
+/* line 152, ../sass/estilos.scss */
+#contenido aside .bloque {
+  margin-bottom: 10px;
+}
+/* line 154, ../sass/estilos.scss */
+#contenido aside .bloque label {
+  display: block;
+  margin-bottom: 5px;
+}
+/* line 158, ../sass/estilos.scss */
+#contenido aside .bloque h3 {
+  margin: 5px;
+}
+/* line 161, ../sass/estilos.scss */
+#contenido aside .bloque input[type="search"], #contenido aside .bloque input[type="text"] {
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  height: 20px;
+  margin-bottom: 5px;
+  width: 300px;
+}
+
+/* line 171, ../sass/estilos.scss */
+footer {
+  background: #073861;
+  overflow: hidden;
+  text-align: center;
+}
+/* line 175, ../sass/estilos.scss */
+footer .bloque {
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: left;
+  vertical-align: top;
+  width: 280px;
+}
+/* line 181, ../sass/estilos.scss */
+footer .bloque h4 {
+  margin-bottom: 5px;
+}
+/* line 184, ../sass/estilos.scss */
+footer .bloque a {
+  color: #CCC;
+}
+/* line 187, ../sass/estilos.scss */
+footer .bloque input[type="text"] {
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 150px;
+}
+/* line 194, ../sass/estilos.scss */
+footer .bloque textarea {
+  border-radius: 5px;
+  height: 100px;
+  width: 250px;
+}
